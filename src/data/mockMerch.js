@@ -1,0 +1,43 @@
+
+export const merchItems = [
+    {
+      id: 1,
+      name: "Official Flag (Large)",
+      price: 150,
+      category: "Flags",
+      description: "High quality flag 150x90cm. Essential for the stadium.",
+      image: "/src/assets/shops/Officia_ Flag.png",
+      hasSize: false,
+      hasCountry: true,
+    },
+    {
+      id: 2,
+      name: "'Atlas Lion' Supporter Pack",
+      price: 450,
+      category: "Packs",
+      description: "Contains 1 flag, 1 scarf and 1 official cap.",
+      image: "/src/assets/shops/Packs.jpg",
+      hasSize: true,
+      hasCountry: true,
+    },
+    {
+      id: 3,
+      name: "'Dima Maghrib' Scarf",
+      price: 120,
+      category: "Accessories",
+      description: "Woven scarf in national colors.",
+      image: "/src/assets/shops/Scarf.jpg",
+      hasSize: false,
+      hasCountry: false,
+    },
+    {
+      id: 4,
+      name: "Home Jersey 2025 (Replica)",
+      price: 800,
+      category: "Jerseys",
+      description: "Official replica of the AFCON jersey.",
+      image: "/src/assets/shops/Home_Jersey.jpg",
+      hasSize: true,
+      hasCountry: true,
+    },
+  ];
