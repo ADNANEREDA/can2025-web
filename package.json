@@ -1,6 +1,5 @@
 {
   "name": "canmaroc",
-  "homepage": "https://adnanereda.github.io/can2025-web/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-    predeploy: "npm run build",
-    deploy: "gh-pages -d dist"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
@@ -34,5 +33,17 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17",
     "vite": "^7.2.4"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADNANEREDA/can2025-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADNANEREDA/can2025-web/issues"
   }
 }

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Shop from './pages/Shop';
@@ -67,6 +67,7 @@ function App() {
         <Navbar />
         
         <main className="grow">
+           
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
@@ -77,12 +78,14 @@ function App() {
             <Route path="/tickets" element={<Tickets />} />
             <Route path="*" element={<NotFound />}/>
           </Routes>
+         
         </main>
 
         <SponsorsStrip />
         <Footer />
       </div>
     </Router>
+    
   );
 }
 
