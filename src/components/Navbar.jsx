@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="shrink-0">
         <Link to="/">
           
-          <img src="/src/assets/images/Logo1.jpg" alt="AFCON 2025 Logo" className="h-12 w-auto" />
+          <img src="assets/images/Logo1.jpg" alt="AFCON 2025 Logo" className="h-12 w-auto" />
         </Link>
       </div>
 

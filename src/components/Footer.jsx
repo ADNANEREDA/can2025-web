@@ -89,7 +89,7 @@ const Footer = () => {
               <img 
                 src="/assets/images/mon-app-icon.png"
                 alt="App Icon"
-                className="h-11 w-11 rounded-lg object-cover border-2 border-gray-200 group-hover:border-white transition-colors flex-shrink-0"
+                className="h-11 w-11 rounded-lg object-cover border-2 border-gray-200 group-hover:border-white transition-colors shrink-0"
               />
 
               <div className="text-left rtl:text-right grow">
