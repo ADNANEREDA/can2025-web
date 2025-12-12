@@ -14,11 +14,11 @@ const Home = () => {
   const [timeLeft, setTimeLeft] = useState({ days: "00", hours: "00", minutes: "00", seconds: "00" });
 
   const heroImages = [
-     "/src/assets/images/hero-afcon-winner-2023.png",
-    "/src/assets/images/can-edi.png",
-    "/src/assets/images/sengal.png",
-    "/src/assets/images/morocco.jpeg",
-    "/src/assets/images/afcondiasporatour3.png"
+     "images/hero-afcon-winner-2023.png",
+    "images/can-edi.png",
+    "images/sengal.png",
+    "images/morocco.jpeg",
+    "images/afcondiasporatour3.png"
   ];
   
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -67,12 +67,12 @@ const Home = () => {
           AFCON MOROCCO <span className="text-maroc-red">2025</span>
         </h1>
         
-        {/* CHGT: Réduction de la marge du bas (mb-12 -> mb-6) */}
+       
         <p className="text-lg md:text-2xl font-bold uppercase text-maroc-green mb-6 tracking-wide drop-shadow-md">
           Welcome to the Kingdom of Football
         </p>
 
-        {/* CHGT: Réduction de la marge du bas (mb-16 -> mb-8) */}
+        
         <div className="flex gap-3 md:gap-6 mb-8 ">
           <CountdownBox value={timeLeft.days} label="Days" color="text-maroc-red" />
           <span className="text-4xl md:text-6xl font-black self-start mt-4">:</span>

@@ -40,7 +40,6 @@ const Tickets = () => {
       <div className="container mx-auto max-w-4xl mb-12">
         <div className="bg-linear-to-r from-maroc-red via-red-800 to-maroc-dark rounded-2xl shadow-2xl overflow-hidden relative">
           <div className="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-white opacity-10 rounded-full blur-3xl pointer-events-none"></div>
-
           <div className="px-6 py-8 md:p-10 flex flex-col md:flex-row items-center justify-between relative z-10">
             <div className="text-center md:text-left mb-6 md:mb-0 md:pr-8">
               <h2 className="text-2xl md:text-3xl font-black text-white uppercase leading-tight mb-3">
