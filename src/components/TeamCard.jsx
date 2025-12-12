@@ -20,7 +20,7 @@ const TeamCard = ({ team }) => {
         </div>
       </div>
 
-      <div className="absolute inset-0 bg-maroc-red bg-gradient-to-br from-maroc-red to-red-800 flex flex-col items-center justify-center p-5 text-center opacity-0 transition-all duration-500 transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 z-20">
+      <div className="absolute inset-0 bg-maroc-red bg-linear-to-br from-maroc-red to-red-800 flex flex-col items-center justify-center p-5 text-center opacity-0 transition-all duration-500 transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 z-20">
         
         <h3 className="text-2xl font-black text-white mb-3 uppercase">{team.name}</h3>
         

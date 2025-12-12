@@ -4,7 +4,7 @@ export const qualifiedTeams = [
     id: "A1",
     name: "Morocco",
     group: "A",
-    flag: "/src/assets/flags/ma.png",
+    flag: "/assets/flags/ma.png",
     titles: 1,
     bestPerformance: "Winner (1976)",
     starPlayer: "Achraf Hakimi"
@@ -13,7 +13,7 @@ export const qualifiedTeams = [
     id: "A2",
     name: "Mali",
     group: "A",
-    flag: "/src/assets/flags/ml.png",
+    flag: "/assets/flags/ml.png",
     titles: 0,
     bestPerformance: "Runner-up (1972)",
     starPlayer: "Yves Bissouma"
@@ -22,7 +22,7 @@ export const qualifiedTeams = [
     id: "A3",
     name: "Zambia",
     group: "A",
-    flag: "/src/assets/flags//zm.png",
+    flag: "/assets/flags/zm.png",   // fixed double slash
     titles: 1,
     bestPerformance: "Winner (2012)",
     starPlayer: "Patson Daka"
@@ -31,7 +31,7 @@ export const qualifiedTeams = [
     id: "A4",
     name: "Comoros",
     group: "A",
-    flag: "/src/assets/flags/km.png",
+    flag: "/assets/flags/km.png",
     titles: 0,
     bestPerformance: "Round of 16 (2021)",
     starPlayer: "El Fardou Ben Nabouhane"
@@ -42,7 +42,7 @@ export const qualifiedTeams = [
     id: "B1",
     name: "Egypt",
     group: "B",
-    flag: "/src/assets/flags/eg.png",
+    flag: "/assets/flags/eg.png",
     titles: 7,
     bestPerformance: "Winner (1957, 1959, 1986, 1998, 2006, 2008, 2010)",
     starPlayer: "Mohamed Salah"
@@ -51,7 +51,7 @@ export const qualifiedTeams = [
     id: "B2",
     name: "South Africa",
     group: "B",
-    flag: "/src/assets/flags/za.png",
+    flag: "/assets/flags/za.png",
     titles: 1,
     bestPerformance: "Winner (1996)",
     starPlayer: "Percy Tau"
@@ -60,7 +60,7 @@ export const qualifiedTeams = [
     id: "B3",
     name: "Angola",
     group: "B",
-    flag: "/src/assets/flags/ao.png",
+    flag: "/assets/flags/ao.png",
     titles: 0,
     bestPerformance: "Quarter-finals (2008, 2010)",
     starPlayer: "Mabululu"
@@ -69,7 +69,7 @@ export const qualifiedTeams = [
     id: "B4",
     name: "Zimbabwe",
     group: "B",
-    flag: "/src/assets/flags/zw.png",
+    flag: "/assets/flags/zw.png",
     titles: 0,
     bestPerformance: "Group Stage",
     starPlayer: "Knowledge Musona"
@@ -80,7 +80,7 @@ export const qualifiedTeams = [
     id: "C1",
     name: "Nigeria",
     group: "C",
-    flag: "/src/assets/flags/ng.png",
+    flag: "/assets/flags/ng.png",
     titles: 3,
     bestPerformance: "Winner (1980, 1994, 2013)",
     starPlayer: "Victor Osimhen"
@@ -89,7 +89,7 @@ export const qualifiedTeams = [
     id: "C2",
     name: "Tunisia",
     group: "C",
-    flag: "/src/assets/flags/tn.png",
+    flag: "/assets/flags/tn.png",
     titles: 1,
     bestPerformance: "Winner (2004)",
     starPlayer: "Ellyes Skhiri"
@@ -98,7 +98,7 @@ export const qualifiedTeams = [
     id: "C3",
     name: "Uganda",
     group: "C",
-    flag: "/src/assets/flags/ug.png",
+    flag: "/assets/flags/ug.png",
     titles: 0,
     bestPerformance: "Runner-up (1978)",
     starPlayer: "Emmanuel Okwi"
@@ -107,7 +107,7 @@ export const qualifiedTeams = [
     id: "C4",
     name: "Tanzania",
     group: "C",
-    flag: "/src/assets/flags/tz.png",
+    flag: "/assets/flags/tz.png",
     titles: 0,
     bestPerformance: "Group Stage",
     starPlayer: "Mbwana Samatta"
@@ -118,7 +118,7 @@ export const qualifiedTeams = [
     id: "D1",
     name: "Senegal",
     group: "D",
-    flag: "/src/assets/flags/sn.png",
+    flag: "/assets/flags/sn.png",
     titles: 1,
     bestPerformance: "Winner (2021)",
     starPlayer: "Sadio Mané"
@@ -127,7 +127,7 @@ export const qualifiedTeams = [
     id: "D2",
     name: "DR Congo",
     group: "D",
-    flag: "/src/assets/flags/cd.png",
+    flag: "/assets/flags/cd.png",
     titles: 2,
     bestPerformance: "Winner (1968, 1974)",
     starPlayer: "Chancel Mbemba"
@@ -136,7 +136,7 @@ export const qualifiedTeams = [
     id: "D3",
     name: "Benin",
     group: "D",
-    flag: "/src/assets/flags/bj.png",
+    flag: "/assets/flags/bj.png",
     titles: 0,
     bestPerformance: "Quarter-finals (2019)",
     starPlayer: "Steve Mounié"
@@ -145,7 +145,7 @@ export const qualifiedTeams = [
     id: "D4",
     name: "Botswana",
     group: "D",
-    flag: "/src/assets/flags/bw.png",
+    flag: "/assets/flags/bw.png",
     titles: 0,
     bestPerformance: "Group Stage",
     starPlayer: "Dingalo Goitsemang"
@@ -156,7 +156,7 @@ export const qualifiedTeams = [
     id: "E1",
     name: "Algeria",
     group: "E",
-    flag: "/src/assets/flags/dz.png",
+    flag: "/assets/flags/dz.png",
     titles: 2,
     bestPerformance: "Winner (1990, 2019)",
     starPlayer: "Riyad Mahrez"
@@ -165,7 +165,7 @@ export const qualifiedTeams = [
     id: "E2",
     name: "Burkina Faso",
     group: "E",
-    flag: "/src/assets/flags/bf.png",
+    flag: "/assets/flags/bf.png",
     titles: 0,
     bestPerformance: "Runner-up (2013)",
     starPlayer: "Edmond Tapsoba"
@@ -174,7 +174,7 @@ export const qualifiedTeams = [
     id: "E3",
     name: "Equatorial Guinea",
     group: "E",
-    flag: "/src/assets/flags/eg.png",
+    flag: "/assets/flags/gq.png", // FIXED! you had /eg.png by mistake
     titles: 0,
     bestPerformance: "Fourth Place (2015)",
     starPlayer: "Emilio Nsue"
@@ -183,7 +183,7 @@ export const qualifiedTeams = [
     id: "E4",
     name: "Sudan",
     group: "E",
-    flag: "/src/assets/flags/sd.png",
+    flag: "/assets/flags/sd.png",
     titles: 1,
     bestPerformance: "Winner (1970)",
     starPlayer: "Mohamed Abdelrahman"
@@ -194,7 +194,7 @@ export const qualifiedTeams = [
     id: "F1",
     name: "Ivory Coast",
     group: "F",
-    flag: "/src/assets/flags/ci.png",
+    flag: "/assets/flags/ci.png",
     titles: 3,
     bestPerformance: "Winner (1992, 2015, 2023)",
     starPlayer: "Sébastien Haller"
@@ -203,7 +203,7 @@ export const qualifiedTeams = [
     id: "F2",
     name: "Cameroon",
     group: "F",
-    flag: "/src/assets/flags/cm.png",
+    flag: "/assets/flags/cm.png",
     titles: 5,
     bestPerformance: "Winner (1984, 1988, 2000, 2002, 2017)",
     starPlayer: "Vincent Aboubakar"
@@ -212,7 +212,7 @@ export const qualifiedTeams = [
     id: "F3",
     name: "Gabon",
     group: "F",
-    flag: "/src/assets/flags/ga.png",
+    flag: "/assets/flags/ga.png",
     titles: 0,
     bestPerformance: "Quarter-finals (2012)",
     starPlayer: "Pierre-Emerick Aubameyang"
@@ -221,7 +221,7 @@ export const qualifiedTeams = [
     id: "F4",
     name: "Mozambique",
     group: "F",
-    flag: "/src/assets/flags/mz.png",
+    flag: "/assets/flags/mz.png",
     titles: 0,
     bestPerformance: "Group Stage",
     starPlayer: "Reinildo Mandava"

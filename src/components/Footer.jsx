@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="space-y-6 text-center lg:text-left">
             <Link to="/" className="inline-block">
               <img 
-                src="/src/assets/images/Logo1.jpg"
+                src="/assets/images/Logo1.jpg"
                 alt="AFCON Morocco 2025"
                 className="h-24 w-auto object-contain mx-auto lg:mx-0 grayscale hover:grayscale-0 transition-all duration-500" 
                 onError={(e) => { 
@@ -87,7 +87,7 @@ const Footer = () => {
               className="inline-flex w-full md:w-auto h-16 items-center justify-center space-x-3 bg-white text-black font-bold px-6 rounded-xl hover:bg-maroc-red hover:text-white transition-all duration-300 transform hover:-translate-y-1 shadow-lg group"
             >
               <img 
-                src="/src/assets/images/mon-app-icon.png"
+                src="/assets/images/mon-app-icon.png"
                 alt="App Icon"
                 className="h-11 w-11 rounded-lg object-cover border-2 border-gray-200 group-hover:border-white transition-colors flex-shrink-0"
               />

@@ -14,11 +14,11 @@ const Home = () => {
   const [timeLeft, setTimeLeft] = useState({ days: "00", hours: "00", minutes: "00", seconds: "00" });
 
   const heroImages = [
-     "images/hero-afcon-winner-2023.png",
-    "images/can-edi.png",
-    "images/sengal.png",
-    "images/morocco.jpeg",
-    "images/afcondiasporatour3.png"
+     "/assets/images/hero-afcon-winner-2023.png",
+    "/assets/images/can-edi.png",
+    "/assets/images/sengal.png",
+    "/assets/images/morocco.jpeg",
+    "/assets/images/afcondiasporatour3.png"
   ];
   
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
