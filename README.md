@@ -1,16 +1,20 @@
-# React + Vite
+# 🏆 CAN 2025 Morocco - Web Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application dedicated to the 2025 Africa Cup of Nations in Morocco. This platform provides fans with a complete digital experience to follow the tournament, from match details to official merchandise.
 
-Currently, two official plugins are available:
+## 🚀 Overview
+This project is a comprehensive fan engagement site for AFCON 2025. It focuses on clear information architecture and a user-friendly interface to showcase Morocco's readiness for the biggest football event in Africa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+* Stadium Guide: Detailed information about the host venues across the Kingdom.
+* News Hub: The latest updates and announcements regarding the tournament.
+* Teams & Squads: Profiles and essential information for all participating nations.
+* Fan Shop: A dedicated section for official merchandise and supporter gear.
+* Tickets Portal: Integrated interface for ticket information and simulated booking.
+* Sponsors Showcase: Highlights of the official partners supporting the event.
 
-## React Compiler
+## 🛠️ Tech Stack
+* Frontend: React.js / Vite
+* Styling: Tailwind CSS (Clean & Responsive)
+* Icons: Lucide-React / FontAwesome
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
